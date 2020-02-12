@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-material-ui",
+  "name": "keystone-academy",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby and Material UI",
+  "description": "a simple front end for a few keystone projects",
   "version": "0.1.0",
-  "author": "Dominic Abela <djmabela@gmail.com>",
+  "author": "jordan rhea <rheajt@gmail.com>",
   "dependencies": {
     "@material-ui/core": "^4.0.1",
     "@material-ui/icons": "^4.2.0",
@@ -26,6 +26,7 @@
     "typeface-roboto": "0.0.54"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -38,13 +39,13 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+    "deploy": "gatsby build && gh-pages -d public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui"
+    "url": "https://github.com/rheajt/keystone-academy"
   },
   "bugs": {
-    "url": "https://github.com/dominicabela/gatsby-starter-material-ui/issues"
+    "url": "https://github.com/rheajt/keystone-academy/issues"
   }
 }
